@@ -24,6 +24,7 @@ struct ForEachLoopBasic: View {
             
             Divider()
             
+            // id: \.self는 각 요소가 고유한 식별자를 가지고 있다는 것을 의미
             ForEach(data, id: \.self) { item in
                 HStack {
                     Text(item)
