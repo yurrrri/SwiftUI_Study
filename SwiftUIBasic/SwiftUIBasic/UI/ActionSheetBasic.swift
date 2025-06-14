@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: iOS 15이후는 ConfirmationDialog
 struct ActionSheetBasic: View {
     
     @State var showActionSheet = false
@@ -41,9 +42,11 @@ struct ActionSheetBasic: View {
             
             Spacer()
         }
+        // MARK: iOS 15 이전
 //        .actionSheet(isPresented: $showActionSheet) {
 //            getActionSheet()
 //        }
+        // MARK: iOS 15 이후 - Confirmation Dialog
         .confirmationDialog("ActionSheet 제목", isPresented: $showActionSheet, titleVisibility: .visible) {
             actionSheetButtons()
         } message: {

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ButtonBasic: View {
+struct ButtonBasic1: View {
     
     // @State: 상태값을 저장하고, 변경될 때마다 View를 업데이트해줌, 상태 관리
     @State var mainTitle: String = "아직 버튼 안눌림"
@@ -85,6 +85,105 @@ struct ButtonBasic: View {
     }
 }
 
+// iOS 15이후 Button Style 지정 가능
+struct ButtonBasic2: View {
+    var body: some View {
+        ScrollView {
+            VStack {
+                Text("1. 일반적인 Button Style")
+                    .font(.headline)
+                
+                Button {
+                
+                } label: {
+                    Text("Plain buttonStyle")
+                }
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .buttonStyle(.plain)
+                                
+                Button {
+                
+                } label: {
+                    Text("bordered buttonStyle")
+                }
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .buttonStyle(.bordered)
+                                
+                Button {
+                
+                } label: {
+                    Text("borderedProminent buttonStyle")
+                }
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .buttonStyle(.borderedProminent)
+                                
+                Button {
+                
+                } label: {
+                    Text("borderless buttonStyle")
+                }
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .buttonStyle(.borderless)
+            }
+            
+            Divider()
+            
+            VStack {
+                Text("2. ControlSize로 버튼 크기 자동 설정")
+                    .font(.headline)
+                
+                Button {
+                
+                } label: {
+                    Text("large controlSize")
+                }
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+                                
+                Button {
+                
+                } label: {
+                    Text("regular buttonStyle")
+                }
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .buttonStyle(.borderedProminent)
+                .controlSize(.regular)
+                                
+                Button {
+                
+                } label: {
+                    Text("small buttonStyle")
+                }
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .buttonStyle(.borderedProminent)
+                .controlSize(.small)
+                
+                Button {
+                
+                } label: {
+                    Text("mini buttonStyle")
+                }
+                .frame(height: 50)
+                .frame(maxWidth: .infinity)
+                .buttonStyle(.borderedProminent)
+                .controlSize(.mini)
+            }
+        }
+    }
+}
+
 #Preview {
-    ButtonBasic()
+    ButtonBasic1()
+}
+
+#Preview {
+    ButtonBasic2()
 }
