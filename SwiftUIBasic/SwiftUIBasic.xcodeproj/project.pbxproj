@@ -24,7 +24,7 @@
 		DA68F8482DFC49D7008839E5 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F80B2DFC49D7008839E5 /* BindingChild.swift */; };
 		DA68F8492DFC49D7008839E5 /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F80C2DFC49D7008839E5 /* ItemBasic.swift */; };
 		DA68F84A2DFC49D7008839E5 /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F80E2DFC49D7008839E5 /* NavigationBasic.swift */; };
-		DA68F84B2DFC49D7008839E5 /* NavigationStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F80F2DFC49D7008839E5 /* NavigationStackBasic.swift */; };
+		DA68F84B2DFC49D7008839E5 /* NavigationStackiOS16.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F80F2DFC49D7008839E5 /* NavigationStackiOS16.swift */; };
 		DA68F84C2DFC49D7008839E5 /* SecondNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8102DFC49D7008839E5 /* SecondNavigationView.swift */; };
 		DA68F84D2DFC49D7008839E5 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8122DFC49D7008839E5 /* ActionSheetBasic.swift */; };
 		DA68F84E2DFC49D7008839E5 /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8132DFC49D7008839E5 /* AlertBasic.swift */; };
@@ -69,6 +69,15 @@
 		DA68F87B2DFC500B008839E5 /* SwipeActionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F87A2DFC500B008839E5 /* SwipeActionBasic.swift */; };
 		DA68F87D2DFC557A008839E5 /* BadgeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F87C2DFC557A008839E5 /* BadgeBasic.swift */; };
 		DA68F87F2DFC5A62008839E5 /* SymbolVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F87E2DFC5A62008839E5 /* SymbolVariant.swift */; };
+		DA68F8822DFD0467008839E5 /* ChartBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8812DFD0467008839E5 /* ChartBasic.swift */; };
+		DA68F8842DFD0D1F008839E5 /* ShareLinkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8832DFD0D1F008839E5 /* ShareLinkBasic.swift */; };
+		DA68F8862DFD118C008839E5 /* GridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8852DFD118C008839E5 /* GridBasic.swift */; };
+		DA68F8882DFD13BE008839E5 /* GaugeViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8872DFD13BE008839E5 /* GaugeViewBasic.swift */; };
+		DA68F88A2DFDC695008839E5 /* ViewThatFitsBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8892DFDC695008839E5 /* ViewThatFitsBasic.swift */; };
+		DA68F88C2E02A589008839E5 /* LabeledContentBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F88B2E02A589008839E5 /* LabeledContentBasic.swift */; };
+		DA68F88E2E02A8DC008839E5 /* MultiDatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F88D2E02A8DC008839E5 /* MultiDatePickerBasic.swift */; };
+		DA68F8922E02E1C4008839E5 /* NavigationLinkiOS16.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8912E02E1C4008839E5 /* NavigationLinkiOS16.swift */; };
+		DA68F8942E02EA98008839E5 /* NavigationSplitViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F8932E02EA98008839E5 /* NavigationSplitViewBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,7 +97,7 @@
 		DA68F80B2DFC49D7008839E5 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		DA68F80C2DFC49D7008839E5 /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
 		DA68F80E2DFC49D7008839E5 /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
-		DA68F80F2DFC49D7008839E5 /* NavigationStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBasic.swift; sourceTree = "<group>"; };
+		DA68F80F2DFC49D7008839E5 /* NavigationStackiOS16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackiOS16.swift; sourceTree = "<group>"; };
 		DA68F8102DFC49D7008839E5 /* SecondNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavigationView.swift; sourceTree = "<group>"; };
 		DA68F8122DFC49D7008839E5 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
 		DA68F8132DFC49D7008839E5 /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
@@ -134,6 +143,15 @@
 		DA68F87A2DFC500B008839E5 /* SwipeActionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionBasic.swift; sourceTree = "<group>"; };
 		DA68F87C2DFC557A008839E5 /* BadgeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBasic.swift; sourceTree = "<group>"; };
 		DA68F87E2DFC5A62008839E5 /* SymbolVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolVariant.swift; sourceTree = "<group>"; };
+		DA68F8812DFD0467008839E5 /* ChartBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBasic.swift; sourceTree = "<group>"; };
+		DA68F8832DFD0D1F008839E5 /* ShareLinkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkBasic.swift; sourceTree = "<group>"; };
+		DA68F8852DFD118C008839E5 /* GridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBasic.swift; sourceTree = "<group>"; };
+		DA68F8872DFD13BE008839E5 /* GaugeViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeViewBasic.swift; sourceTree = "<group>"; };
+		DA68F8892DFDC695008839E5 /* ViewThatFitsBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsBasic.swift; sourceTree = "<group>"; };
+		DA68F88B2E02A589008839E5 /* LabeledContentBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentBasic.swift; sourceTree = "<group>"; };
+		DA68F88D2E02A8DC008839E5 /* MultiDatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerBasic.swift; sourceTree = "<group>"; };
+		DA68F8912E02E1C4008839E5 /* NavigationLinkiOS16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkiOS16.swift; sourceTree = "<group>"; };
+		DA68F8932E02EA98008839E5 /* NavigationSplitViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewBasic.swift; sourceTree = "<group>"; };
 		DA9FE5B42DDA1A6A006E1565 /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -219,8 +237,10 @@
 			isa = PBXGroup;
 			children = (
 				DA68F80E2DFC49D7008839E5 /* NavigationBasic.swift */,
-				DA68F80F2DFC49D7008839E5 /* NavigationStackBasic.swift */,
+				DA68F80F2DFC49D7008839E5 /* NavigationStackiOS16.swift */,
 				DA68F8102DFC49D7008839E5 /* SecondNavigationView.swift */,
+				DA68F8912E02E1C4008839E5 /* NavigationLinkiOS16.swift */,
+				DA68F8932E02EA98008839E5 /* NavigationSplitViewBasic.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -301,6 +321,13 @@
 		DA68F8802DFD01B1008839E5 /* iOS16 */ = {
 			isa = PBXGroup;
 			children = (
+				DA68F8812DFD0467008839E5 /* ChartBasic.swift */,
+				DA68F8832DFD0D1F008839E5 /* ShareLinkBasic.swift */,
+				DA68F8852DFD118C008839E5 /* GridBasic.swift */,
+				DA68F8872DFD13BE008839E5 /* GaugeViewBasic.swift */,
+				DA68F8892DFDC695008839E5 /* ViewThatFitsBasic.swift */,
+				DA68F88B2E02A589008839E5 /* LabeledContentBasic.swift */,
+				DA68F88D2E02A8DC008839E5 /* MultiDatePickerBasic.swift */,
 			);
 			path = iOS16;
 			sourceTree = "<group>";
@@ -407,14 +434,17 @@
 				DA68F8462DFC49D7008839E5 /* FruitViewModel.swift in Sources */,
 				DA68F8472DFC49D7008839E5 /* iOSDeviceViewModel.swift in Sources */,
 				DA68F8482DFC49D7008839E5 /* BindingChild.swift in Sources */,
+				DA68F8822DFD0467008839E5 /* ChartBasic.swift in Sources */,
 				DA68F8492DFC49D7008839E5 /* ItemBasic.swift in Sources */,
 				DA68F84A2DFC49D7008839E5 /* NavigationBasic.swift in Sources */,
-				DA68F84B2DFC49D7008839E5 /* NavigationStackBasic.swift in Sources */,
+				DA68F84B2DFC49D7008839E5 /* NavigationStackiOS16.swift in Sources */,
 				DA68F84C2DFC49D7008839E5 /* SecondNavigationView.swift in Sources */,
 				DA68F84D2DFC49D7008839E5 /* ActionSheetBasic.swift in Sources */,
 				DA68F84E2DFC49D7008839E5 /* AlertBasic.swift in Sources */,
 				DA68F84F2DFC49D7008839E5 /* AnimationBasic.swift in Sources */,
 				DA68F8502DFC49D7008839E5 /* AppStorageBasic.swift in Sources */,
+				DA68F88C2E02A589008839E5 /* LabeledContentBasic.swift in Sources */,
+				DA68F88E2E02A8DC008839E5 /* MultiDatePickerBasic.swift in Sources */,
 				DA68F8792DFC4DD3008839E5 /* TextSelectionBasic.swift in Sources */,
 				DA68F8512DFC49D7008839E5 /* BackgroundOverlayBasic.swift in Sources */,
 				DA68F8522DFC49D7008839E5 /* ButtonBasic.swift in Sources */,
@@ -435,8 +465,12 @@
 				DA68F85E2DFC49D7008839E5 /* InitEnumBasic.swift in Sources */,
 				DA68F85F2DFC49D7008839E5 /* LazyGridBasic.swift in Sources */,
 				DA68F8602DFC49D7008839E5 /* ListBasic.swift in Sources */,
+				DA68F8842DFD0D1F008839E5 /* ShareLinkBasic.swift in Sources */,
+				DA68F8942E02EA98008839E5 /* NavigationSplitViewBasic.swift in Sources */,
 				DA68F8612DFC49D7008839E5 /* OnTabGestureBasic.swift in Sources */,
 				DA68F8622DFC49D7008839E5 /* PaddingBasic.swift in Sources */,
+				DA68F8862DFD118C008839E5 /* GridBasic.swift in Sources */,
+				DA68F8882DFD13BE008839E5 /* GaugeViewBasic.swift in Sources */,
 				DA68F8632DFC49D7008839E5 /* PickerBasic.swift in Sources */,
 				DA68F8642DFC49D7008839E5 /* ScrollBasic.swift in Sources */,
 				DA68F8652DFC49D7008839E5 /* ShapeBasic.swift in Sources */,
@@ -444,11 +478,13 @@
 				DA68F8672DFC49D7008839E5 /* SheetBasic2.swift in Sources */,
 				DA68F8682DFC49D7008839E5 /* SliderBasic.swift in Sources */,
 				DA68F8692DFC49D7008839E5 /* SpaceBasic.swift in Sources */,
+				DA68F8922E02E1C4008839E5 /* NavigationLinkiOS16.swift in Sources */,
 				DA68F87D2DFC557A008839E5 /* BadgeBasic.swift in Sources */,
 				DA68F86A2DFC49D7008839E5 /* StackBasic.swift in Sources */,
 				DA68F8742DFC4A12008839E5 /* AsyncImageBasic.swift in Sources */,
 				DA68F86B2DFC49D7008839E5 /* StepperBasic.swift in Sources */,
 				DA68F86C2DFC49D7008839E5 /* SwiftUIBasicApp.swift in Sources */,
+				DA68F88A2DFDC695008839E5 /* ViewThatFitsBasic.swift in Sources */,
 				DA68F86D2DFC49D7008839E5 /* TabViewBasic.swift in Sources */,
 				DA68F86E2DFC49D7008839E5 /* TextBasic.swift in Sources */,
 				DA68F86F2DFC49D7008839E5 /* TextFieldBasic.swift in Sources */,

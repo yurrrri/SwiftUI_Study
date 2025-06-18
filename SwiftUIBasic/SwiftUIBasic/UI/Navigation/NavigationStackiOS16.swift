@@ -7,33 +7,30 @@
 
 import SwiftUI
 
-// iOS 16이후 NavigationStack
-
-struct NavigationStackBasic: View {
+// MARK: iOS 16이후 - NavigationStack: NavigationView 대체
+struct NavigationStackiOS16: View {
     
     @State var stack = NavigationPath()
     
     var body: some View {
-        // 1번째 : NavigationStack을 이용한 화면 이동
         NavigationStack(path: $stack) {
             NavigationLink("2번째 페이지 이동", value: 40)   // 이후 화면에 넘기려는 값
                 .navigationDestination(for: Int.self) { value in
-                    VStack (spacing: 20) {
-                        NavigationLink("3번째 페이지 이동", value: 100)
+                    // 넘기려는 값의 자료형 (40은 Int임)
+                    VStack (spacing: 20) {    // Navigation 종착지의 뷰
                         Text("나의 나이는 \(value) 입니다")
                         Button {
-//                            stack.removeLast() // 이전페이지로 이동
+                            //                            stack.removeLast() // 이전페이지로 이동
                             stack = .init() // 초기화면으로 바로 이동
                         } label: {
-//                            Text("이전페이지로 이동하기")
+                            //                            Text("이전페이지로 이동하기")
                             Text("초기화면으로 이동하기")
                         }
-
-                    } //: VSTACK
+                        
+                    }
                 }
-        } //: NAVIGATIONSTACK
+        }
         
-        // 2번째 : List로 한꺼번에 관리
          NavigationStack {
              List {
                  NavigationLink("첫 번째 화면", value: "첫 번째 화면")
@@ -47,5 +44,5 @@ struct NavigationStackBasic: View {
 }
 
 #Preview {
-    NavigationStackBasic()
+    NavigationStackiOS16()
 }
