@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1B03162EE2BE8C00CCC526 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B03152EE2BE8C00CCC526 /* UserViewModel.swift */; };
+		DA1B03182EE2C69B00CCC526 /* SwiftUIBasiciOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B03172EE2C69B00CCC526 /* SwiftUIBasiciOS17App.swift */; };
+		DA1B031A2EE2C97600CCC526 /* ObservationiOS17.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B03192EE2C97600CCC526 /* ObservationiOS17.swift */; };
 		DA68F83A2DFC49D7008839E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA68F8092DFC49D7008839E5 /* Preview Assets.xcassets */; };
 		DA68F83B2DFC49D7008839E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA68F8382DFC49D7008839E5 /* Assets.xcassets */; };
 		DA68F83C2DFC49D7008839E5 /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68F7F82DFC49D7008839E5 /* BindingBasic.swift */; };
@@ -81,6 +84,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA1B03152EE2BE8C00CCC526 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		DA1B03172EE2C69B00CCC526 /* SwiftUIBasiciOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasiciOS17App.swift; sourceTree = "<group>"; };
+		DA1B03192EE2C97600CCC526 /* ObservationiOS17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationiOS17.swift; sourceTree = "<group>"; };
 		DA68F7F82DFC49D7008839E5 /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
 		DA68F7F92DFC49D7008839E5 /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
 		DA68F7FB2DFC49D7008839E5 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
@@ -166,6 +172,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA1B03142EE2BE5800CCC526 /* iOS17 */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B03152EE2BE8C00CCC526 /* UserViewModel.swift */,
+				DA1B03172EE2C69B00CCC526 /* SwiftUIBasiciOS17App.swift */,
+				DA1B03192EE2C97600CCC526 /* ObservationiOS17.swift */,
+			);
+			path = iOS17;
+			sourceTree = "<group>";
+		};
 		DA68F7FA2DFC49D7008839E5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +312,7 @@
 				DA68F8312DFC49D7008839E5 /* SwiftUIBasicApp.swift */,
 				DA68F8722DFC49E8008839E5 /* iOS15 */,
 				DA68F8802DFD01B1008839E5 /* iOS16 */,
+				DA1B03142EE2BE5800CCC526 /* iOS17 */,
 				DA68F7FA2DFC49D7008839E5 /* Data */,
 				DA68F8082DFC49D7008839E5 /* MVVM */,
 				DA68F80A2DFC49D7008839E5 /* Preview Content */,
@@ -454,6 +471,7 @@
 				DA68F8772DFC4C40008839E5 /* BackgroundMaterialBasic.swift in Sources */,
 				DA68F8552DFC49D7008839E5 /* DarkModeBasic.swift in Sources */,
 				DA68F87F2DFC5A62008839E5 /* SymbolVariant.swift in Sources */,
+				DA1B03162EE2BE8C00CCC526 /* UserViewModel.swift in Sources */,
 				DA68F8562DFC49D7008839E5 /* DatePickerBasic.swift in Sources */,
 				DA68F8572DFC49D7008839E5 /* ExtractSubViewBasic.swift in Sources */,
 				DA68F8582DFC49D7008839E5 /* ExtractView.swift in Sources */,
@@ -479,10 +497,12 @@
 				DA68F8682DFC49D7008839E5 /* SliderBasic.swift in Sources */,
 				DA68F8692DFC49D7008839E5 /* SpaceBasic.swift in Sources */,
 				DA68F8922E02E1C4008839E5 /* NavigationLinkiOS16.swift in Sources */,
+				DA1B03182EE2C69B00CCC526 /* SwiftUIBasiciOS17App.swift in Sources */,
 				DA68F87D2DFC557A008839E5 /* BadgeBasic.swift in Sources */,
 				DA68F86A2DFC49D7008839E5 /* StackBasic.swift in Sources */,
 				DA68F8742DFC4A12008839E5 /* AsyncImageBasic.swift in Sources */,
 				DA68F86B2DFC49D7008839E5 /* StepperBasic.swift in Sources */,
+				DA1B031A2EE2C97600CCC526 /* ObservationiOS17.swift in Sources */,
 				DA68F86C2DFC49D7008839E5 /* SwiftUIBasicApp.swift in Sources */,
 				DA68F88A2DFDC695008839E5 /* ViewThatFitsBasic.swift in Sources */,
 				DA68F86D2DFC49D7008839E5 /* TabViewBasic.swift in Sources */,
